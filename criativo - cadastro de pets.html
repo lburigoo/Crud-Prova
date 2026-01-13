@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pets</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <h1>Cadastro de Pets</h1>
+
+    <div class="input-area">
+        <input type="text" id="nome" placeholder="Nome do Pet">
+        <input type="text" id="raca" placeholder="Raça">
+        <input type="number" id="idade" placeholder="Idade">
+        <input type="text" id="tutor" placeholder="Nome do Tutor">
+        <button onclick="adicionar()">+</button>
+    </div>
+
+    <div class="busca">
+        <input type="text" id="pesquisa" placeholder="Buscar por Nome ou Raça" onkeyup="buscar()">
+    </div>
+
+    <h3>Total de pets cadastrados: <span id="contador">0</span></h3>
+
+    <div id="lista"></div>
+
+    <script src="js/criativo - cadastro de pets.js"></script>
+</body>
+</html>

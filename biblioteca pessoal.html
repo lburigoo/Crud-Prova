@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca pessoal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Biblioteca Pessoal 📖</h1>
+
+    <div class="input-area">
+        <input type="text" id="titulo" placeholder="Título do Livro">
+        <input type="text" id="autor" placeholder="Autor">
+        <input type="number" id="ano" placeholder="Ano">
+        <button onclick="adicionar()">+</button>
+    </div>
+
+    <div class="filtros">
+        <button onclick="filtrar('todos')">📚 Todos</button>
+        <button onclick="filtrar('lidos')">📘 Lidos</button>
+        <button onclick="filtrar('naoLidos')">📕 Não lidos</button>
+    </div>
+    
+    <br><br>
+
+    <div id="lista"></div>
+
+
+
+
+
+
+    <script src="js/biblioteca pessoal.js"></script>
+</body>
+
+</html>

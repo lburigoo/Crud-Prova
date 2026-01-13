@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de notas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <h1>Controle de Notas</h1>
+
+    <div class="input-area">
+        <input type="text" id="aluno" placeholder="Aluno">
+        <input type="text" id="disciplina" placeholder="Disciplina">
+        <input type="number" id="nota" placeholder="Nota" step="0.1">
+        <button onclick="adicionar()">Adicionar</button>
+        <button onclick="atualizar()" id="btn-atualizar" style="display:none;">Atualizar</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Aluno</th>
+                <th>Disciplina</th>
+                <th>Nota</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabela"></tbody>
+    </table>
+
+    <div id="mediaGeral"></div>
+
+    <script src="js/controle de notas.js"></script>
+</body>
+</html>

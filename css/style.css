@@ -1,0 +1,60 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+  color: chocolate;
+}
+h2{
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+  color: chocolate;
+}
+button{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 12px;
+    border-color: chocolate;
+}
+input{
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+    width: 150px;
+}
+.lista1{
+    align-items: center;
+    margin: auto; 
+    min-height: 100vh;
+}
+.sinopse{
+  border-radius: 8px;
+    padding: 20px 30px;
+    border-color: chocolate;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: chocolate;
+  color: white;
+}
